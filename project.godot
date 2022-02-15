@@ -9,10 +9,200 @@
 config_version=4
 
 _global_script_classes=[ {
+"base": "Reference",
+"class": "Array2D",
+"language": "GDScript",
+"path": "res://addons/godot-next/references/array_2d.gd"
+}, {
+"base": "Resource",
+"class": "ArrayMap",
+"language": "GDScript",
+"path": "res://addons/godot-next/resources/array_map.gd"
+}, {
+"base": "Reference",
+"class": "BatchIter",
+"language": "GDScript",
+"path": "res://addons/nylon/core/batch_iter.gd"
+}, {
+"base": "Resource",
+"class": "Behavior",
+"language": "GDScript",
+"path": "res://addons/godot-next/resources/behavior.gd"
+}, {
+"base": "Reference",
+"class": "BitFlag",
+"language": "GDScript",
+"path": "res://addons/godot-next/references/bit_flag.gd"
+}, {
+"base": "Reference",
+"class": "Bitset",
+"language": "GDScript",
+"path": "res://addons/godot-next/references/bitset.gd"
+}, {
+"base": "Control",
+"class": "CSVEditor",
+"language": "GDScript",
+"path": "res://godot-addons-as-submodules/godot-engine.file-editor/addons/file-editor/scripts/CSVEditor.gd"
+}, {
+"base": "Reference",
+"class": "CSVFile",
+"language": "GDScript",
+"path": "res://addons/godot-next/references/csv_file.gd"
+}, {
+"base": "Nylon",
+"class": "Cacoon",
+"language": "GDScript",
+"path": "res://addons/nylon/common/cacoon.gd"
+}, {
+"base": "Node",
+"class": "CallbackDelegator",
+"language": "GDScript",
+"path": "res://addons/godot-next/nodes/callback_delegator.gd"
+}, {
+"base": "Reference",
+"class": "ClassType",
+"language": "GDScript",
+"path": "res://addons/godot-next/references/class_type.gd"
+}, {
+"base": "Reference",
+"class": "Coroutine",
+"language": "GDScript",
+"path": "res://addons/nylon/core/coroutine.gd"
+}, {
+"base": "TabContainer",
+"class": "Cycle",
+"language": "GDScript",
+"path": "res://addons/godot-next/gui/cycle.gd"
+}, {
+"base": "Label",
+"class": "DebugLabel",
+"language": "GDScript",
+"path": "res://addons/godot-next/gui/debug_label.gd"
+}, {
+"base": "ImageTexture",
+"class": "DiscreteGradientTexture",
+"language": "GDScript",
+"path": "res://addons/godot-next/resources/discrete_gradient_texture.gd"
+}, {
+"base": "Reference",
+"class": "EditorTools",
+"language": "GDScript",
+"path": "res://addons/godot-next/global/editor_tools.gd"
+}, {
+"base": "Reference",
+"class": "FileSearch",
+"language": "GDScript",
+"path": "res://addons/godot-next/global/file_search.gd"
+}, {
+"base": "Reference",
+"class": "FileSystemLink",
+"language": "GDScript",
+"path": "res://addons/godot-next/global/file_system_link.gd"
+}, {
+"base": "CollisionShape2D",
+"class": "Geometry2D",
+"language": "GDScript",
+"path": "res://addons/godot-next/2d/geometry_2d.gd"
+}, {
+"base": "HTTPRequest",
+"class": "GoogleTranslateAPI",
+"language": "GDScript",
+"path": "res://godot-addons-as-submodules/godot-engine.file-editor/addons/file-editor/scripts/GoogleTranslatorAPI.gd"
+}, {
+"base": "Reference",
+"class": "GutHookScript",
+"language": "GDScript",
+"path": "res://addons/gut/hook_script.gd"
+}, {
+"base": "Node",
+"class": "GutTest",
+"language": "GDScript",
+"path": "res://addons/gut/test.gd"
+}, {
+"base": "Reference",
+"class": "Icons",
+"language": "GDScript",
+"path": "res://addons/godot-next/singletons/icons.gd"
+}, {
+"base": "Reference",
+"class": "Inflector",
+"language": "GDScript",
+"path": "res://addons/godot-next/references/inflector.gd"
+}, {
+"base": "Reference",
+"class": "InspectorControls",
+"language": "GDScript",
+"path": "res://addons/godot-next/global/inspector_controls.gd"
+}, {
 "base": "Node",
 "class": "Main",
 "language": "GDScript",
 "path": "res://scenes/main/main.gd"
+}, {
+"base": "Reference",
+"class": "MenuManager",
+"language": "GDScript",
+"path": "res://addons/godot-next/references/MenuManager.gd"
+}, {
+"base": "Reference",
+"class": "MessageDispatcher",
+"language": "GDScript",
+"path": "res://addons/godot-next/references/message_dispatcher.gd"
+}, {
+"base": "Node",
+"class": "MessageDispatcherWrapper",
+"language": "GDScript",
+"path": "res://addons/godot-next/nodes/message_dispatcher_wrapper.gd"
+}, {
+"base": "Node",
+"class": "NetworkGame",
+"language": "GDScript",
+"path": "res://addons/multiplayer/NetworkGame.gd"
+}, {
+"base": "Node",
+"class": "Nylon",
+"language": "GDScript",
+"path": "res://addons/nylon/core/nylon.gd"
+}, {
+"base": "Resource",
+"class": "PhysicsLayers",
+"language": "GDScript",
+"path": "res://addons/godot-next/global/physics_layers.gd"
+}, {
+"base": "Reference",
+"class": "ProjectTools",
+"language": "GDScript",
+"path": "res://addons/godot-next/global/project_tools.gd"
+}, {
+"base": "Reference",
+"class": "PropertyInfo",
+"language": "GDScript",
+"path": "res://addons/godot-next/references/property_info.gd"
+}, {
+"base": "Reference",
+"class": "PropertyInfoFactory",
+"language": "GDScript",
+"path": "res://addons/godot-next/references/property_info_factory.gd"
+}, {
+"base": "EditorScript",
+"class": "ReferenceCollector",
+"language": "GDScript",
+"path": "res://godot-addons-as-submodules/godot-console/gdscript-docs-maker/godot-scripts/ReferenceCollector.gd"
+}, {
+"base": "ResourceCollection",
+"class": "ResourceArray",
+"language": "GDScript",
+"path": "res://addons/godot-next/resources/resource_collections/resource_array.gd"
+}, {
+"base": "Resource",
+"class": "ResourceCollection",
+"language": "GDScript",
+"path": "res://addons/godot-next/resources/resource_collections/resource_collection.gd"
+}, {
+"base": "ResourceCollection",
+"class": "ResourceSet",
+"language": "GDScript",
+"path": "res://addons/godot-next/resources/resource_collections/resource_set.gd"
 }, {
 "base": "Reference",
 "class": "SceneData",
@@ -24,16 +214,156 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://scenes/main/scenes.gd"
 }, {
+"base": "Reference",
+"class": "Silk",
+"language": "GDScript",
+"path": "res://addons/nylon/common/silk.gd"
+}, {
+"base": "Reference",
+"class": "Singletons",
+"language": "GDScript",
+"path": "res://addons/godot-next/global/singletons.gd"
+}, {
+"base": "Node",
+"class": "Sync",
+"language": "GDScript",
+"path": "res://addons/multiplayer/Sync.gd"
+}, {
+"base": "Reference",
+"class": "TimedCallable",
+"language": "GDScript",
+"path": "res://addons/nylon/core/timed_callable.gd"
+}, {
+"base": "Reference",
+"class": "TimedIter",
+"language": "GDScript",
+"path": "res://addons/nylon/core/timed_iter.gd"
+}, {
+"base": "Reference",
+"class": "TimedResume",
+"language": "GDScript",
+"path": "res://addons/nylon/core/timed_resume.gd"
+}, {
+"base": "Line2D",
+"class": "Trail2D",
+"language": "GDScript",
+"path": "res://addons/godot-next/2d/trail_2d.gd"
+}, {
+"base": "ImmediateGeometry",
+"class": "Trail3D",
+"language": "GDScript",
+"path": "res://addons/godot-next/3d/trail_3d.gd"
+}, {
 "base": "CanvasLayer",
 "class": "Transition",
 "language": "GDScript",
 "path": "res://scenes/main/transition/transition.gd"
+}, {
+"base": "Reference",
+"class": "TweenSequence",
+"language": "GDScript",
+"path": "res://addons/godot-next/references/tween_sequence/tween_sequence.gd"
+}, {
+"base": "Reference",
+"class": "Tweener",
+"language": "GDScript",
+"path": "res://addons/godot-next/references/tween_sequence/tweener.gd"
+}, {
+"base": "VBoxContainer",
+"class": "VBoxItemList",
+"language": "GDScript",
+"path": "res://addons/godot-next/gui/v_box_item_list.gd"
+}, {
+"base": "Reference",
+"class": "Variant",
+"language": "GDScript",
+"path": "res://addons/godot-next/global/variant.gd"
+}, {
+"base": "Resource",
+"class": "Vec2",
+"language": "GDScript",
+"path": "res://addons/godot-next/2d/vec2.gd"
+}, {
+"base": "Resource",
+"class": "Vec3",
+"language": "GDScript",
+"path": "res://addons/godot-next/3d/vec3.gd"
+}, {
+"base": "Node",
+"class": "VectorDisplay2D",
+"language": "GDScript",
+"path": "res://addons/godot-next/2d/vector_display_2d.gd"
+}, {
+"base": "Node",
+"class": "VectorDisplay3D",
+"language": "GDScript",
+"path": "res://addons/godot-next/3d/vector_display_3d.gd"
+}, {
+"base": "Reference",
+"class": "WeakCallable",
+"language": "GDScript",
+"path": "res://addons/nylon/core/weak_callable.gd"
 } ]
 _global_script_class_icons={
+"Array2D": "",
+"ArrayMap": "",
+"BatchIter": "",
+"Behavior": "",
+"BitFlag": "",
+"Bitset": "",
+"CSVEditor": "",
+"CSVFile": "",
+"Cacoon": "",
+"CallbackDelegator": "",
+"ClassType": "",
+"Coroutine": "",
+"Cycle": "res://addons/godot-next/icons/icon_cycle.svg",
+"DebugLabel": "",
+"DiscreteGradientTexture": "",
+"EditorTools": "",
+"FileSearch": "",
+"FileSystemLink": "",
+"Geometry2D": "res://addons/godot-next/icons/icon_geometry_2d.svg",
+"GoogleTranslateAPI": "",
+"GutHookScript": "",
+"GutTest": "",
+"Icons": "",
+"Inflector": "",
+"InspectorControls": "",
 "Main": "",
+"MenuManager": "",
+"MessageDispatcher": "",
+"MessageDispatcherWrapper": "",
+"NetworkGame": "",
+"Nylon": "",
+"PhysicsLayers": "",
+"ProjectTools": "",
+"PropertyInfo": "",
+"PropertyInfoFactory": "",
+"ReferenceCollector": "",
+"ResourceArray": "",
+"ResourceCollection": "",
+"ResourceSet": "",
 "SceneData": "",
 "Scenes": "",
-"Transition": ""
+"Silk": "",
+"Singletons": "",
+"Sync": "",
+"TimedCallable": "",
+"TimedIter": "",
+"TimedResume": "",
+"Trail2D": "res://addons/godot-next/icons/icon_trail_2d.svg",
+"Trail3D": "res://addons/godot-next/icons/icon_trail_3d.svg",
+"Transition": "",
+"TweenSequence": "",
+"Tweener": "",
+"VBoxItemList": "res://addons/godot-next/icons/icon_v_box_item_list.svg",
+"Variant": "",
+"Vec2": "",
+"Vec3": "",
+"VectorDisplay2D": "",
+"VectorDisplay3D": "",
+"WeakCallable": ""
 }
 
 [application]
@@ -48,6 +378,9 @@ config/version="0.0.1"
 [autoload]
 
 Game="*res://autoload/game.gd"
+Console="*res://addons/quentincaffeino/console/src/Console.tscn"
+IntegerResolutionHandler="*res://addons/integer_resolution_handler/integer_resolution_handler.gd"
+LastOpenedFiles="*res://addons/file-editor/scripts/LastOpenedFiles.gd"
 
 [display]
 
@@ -55,11 +388,35 @@ window/dpi/allow_hidpi=true
 window/stretch/mode="2d"
 window/stretch/aspect="expand"
 
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/file-editor/plugin.cfg", "res://addons/godot-event-bus/plugin.cfg", "res://addons/godot-next/plugin.cfg", "res://addons/gut/plugin.cfg", "res://addons/integer_resolution_handler/plugin.cfg", "res://addons/multiplayer/plugin.cfg", "res://addons/nylon/plugin.cfg", "res://addons/quentincaffeino/console/plugin.cfg" )
+
 [input]
 
 pause={
 "deadzone": 0.5,
 "events": [ Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"button_index":11,"pressure":0.0,"pressed":false,"script":null)
 , Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777217,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+quentincaffeino_console_toggle={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":true,"meta":false,"command":true,"pressed":false,"scancode":96,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+quentincaffeino_console_autocomplete={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777218,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+quentincaffeino_console_history_up={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777232,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+quentincaffeino_console_history_down={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777234,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
  ]
 }
