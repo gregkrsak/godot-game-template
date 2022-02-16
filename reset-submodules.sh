@@ -17,5 +17,5 @@ git checkout main
 cd ..
 
 echo ""
-./checkout-default-submodule-branches.sh
+./_checkout-default-submodule-branches.sh
 
